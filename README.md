@@ -1,14 +1,16 @@
 # Dialog
 -  전체 화면을 다 채우지 않고 일부 화면만 가리는 창
- > 구성요소
+
+###### 구성요소
 - Title - 다이얼로그의 제목입니다.
 - Content - 사용자에게 보여줄 내용으로 문자열, 리스트, 커스텀 레이아웃이 가능합니다.
 - Button - 버튼 3개까지 가능합니다.  Positive, Negative, Neutral Button 3가지 타입이 있습니다.
   - Positve -> YES 또는 OK 사용자가 허락
   - Negative -> NO 또는 Cancel 사용자가 불허 혹은 취소
   - Neutral -> Later 결정을 연기
-  
-  - list dialog창 띄우기
+
+- list dialog창 띄우기
+
   ```java
   Button listbtn;
 
@@ -31,7 +33,7 @@
         });
   ```
   
-  - exit dialog창 띄우기
+- exit dialog창 띄우기
   ```java
    Button exitbtn;
   
